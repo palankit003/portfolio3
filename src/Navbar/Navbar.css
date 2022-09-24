@@ -1,0 +1,55 @@
+.logo {
+  color: black;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 1rem;
+}
+.logo:hover {
+  background: black;
+  color: yellow;
+  animation: logomove 4s infinite;
+}
+@keyframes logomove {
+  0% {
+    border-radius: 0;
+  }
+  33% {
+    border-radius: 50px;
+  }
+  66% {
+    border-radius: -50px;
+  }
+  100% {
+    border-radius: 0px;
+  }
+}
+nav {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem 1rem 2rem;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+ul li {
+  padding: 0 1rem;
+}
+ul li:hover {
+  background: black;
+  color: yellow;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  ul {
+    display: none;
+  }
+}
