@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://palankit003.github.io/react-gh-pages",
+  "homepage": "https://palankit003.github.io/portfolio3",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
